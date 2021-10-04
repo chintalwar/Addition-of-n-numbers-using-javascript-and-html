@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/add.css" >
+    <title>Addition</title>
+</head>
+<body>
+    <div class="add">
+         <!--Enter the total no from user-->
+         <p id ="num">
+         <lable>ENTER THE TOTAL NO HERE YOU WANT TO ADD : </lable><br><br>
+         <input type = "text" id = "totalNo"><button class="btnEnter" onclick="enter()">ENTER</button>
+         </p>
+
+         <!--Praragragh create for no of Entry-->
+         <p id = "NoOfEntry" style = "display:none;">
+            ENTER
+          <span id="numberVal"></span> 
+            VALUES FOR ADDITION: <br><br> INPUT NO 
+          <span id="tmep"></span> : 
+          <input type="text" id ="no"><button class="btnAdd" onclick="add()">ENTER</button>
+         </p>
+
+         <!--To display the result--> 
+         <p id = "result" style="display:none;"><button class ="btnResult" onclick="result()">ADD</button>
+            <input type ="text" id = "add"><br><br>
+            <button class = "btnClear">CLEAR</button>
+         </p>
+    </div>
+    <script src="js/add.js" type="text/javascript"></script>
+</body>
+</html>

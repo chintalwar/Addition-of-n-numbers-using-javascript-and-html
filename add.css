@@ -1,0 +1,59 @@
+.add{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border: 3px solid rgb(2, 143, 77);
+    padding: 10px;
+    background-color:rgb(207, 243, 225);
+}
+input[type=text]{
+    width: 45%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .btnEnter {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnAdd {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btnResult{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #NoOfEntry{
+    text-align: left;
+  }
+  .btnClear{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    text-align: right;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  
